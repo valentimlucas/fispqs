@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Acessar Fispqs</title>
+    <style>
+        /* Resetando margens e preenchimentos padrões */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 90%;  /* Responsivo: a largura da div será 90% da tela */
+            max-width: 350px;  /* Limite máximo para dispositivos maiores */
+        }
+
+        h1 {
+            font-size: 20px;
+            margin-bottom: 20px;
+            color: #333;
+        }
+
+        .link-image {
+            width: 50%; /* A imagem ocupará 100% da largura disponível */
+            height: auto;
+            border-radius: 8px;
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        }
+
+        .link-image:hover {
+            transform: scale(1.1);
+        }
+
+        /* Ajustes adicionais para telas menores */
+        @media (max-width: 480px) {
+            h1 {
+                font-size: 18px;  /* Tamanho de fonte menor para telas pequenas */
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Clique na imagem para acessar as FISPQs</h1>
+        <a href="https://onedrive.live.com/?authkey=%21APhSR5fEjYVqLOY&id=07D8D56FD536A40F%21110&cid=07D8D56FD536A40F" target="_blank">
+            <img class="link-image" src="https://i.im.ge/2025/01/29/HuYYBq.pasta-de-documentos.png" alt="Clique para acessar">
+        </a>
+    </div>
+
+</body>
+</html>
